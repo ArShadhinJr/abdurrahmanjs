@@ -3,14 +3,17 @@ body {
   margin: 0;
 }
 /* Here first section of protfolio website  */
-.first-section  {
-  margin-bottom: 100px;
+.first-section {
+  margin-bottom: 30px;
   display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
 h1 {
   font-size: 50px;
+}
+h2 {
+  font-size: 40px;
 }
 span {
   color: orange;
@@ -45,17 +48,53 @@ p {
 
 /* here 2nd section of Abdur Rahman protfolio website */
 .second-section-details {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 .second-section {
-    margin-bottom: 100px;
-    display: flex;
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-  }
+  margin-bottom: 100px;
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .second-section img {
-    width: 90%;
-    padding-top: 40px;
-    padding-left: 70px;
-  }
+  width: 90%;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+.exper {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.exper .web {
+  display: flex;
+}
+.exper .web .web-dev,
+.exper .web .baby-web {
+  width: 42%;
+  margin-left: 4%;
+  margin-right: 4%;
+  box-shadow: 10px 10px 40px black;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.web h3 {
+  color: orange;
+}
+.exper .web .web-dev {
+  border-image: linear-gradient( orange , tomato ) 100;
+  border-image-slice: 1;
+  border-left: 10px solid ;
+}
+.exper .web .baby-web {
+  border-image: linear-gradient( blue , tomato ) 100;
+  border-image-slice: 1;
+  border-left: 10px solid ;
+}
+footer {
+  margin-top: 100px;
+}
+footer p {
+  text-align: center;
+}
